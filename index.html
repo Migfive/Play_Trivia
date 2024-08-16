@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Play trivia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="title">
+        <h1>Welcome to the Trivia Game!</h1>
+        <button type="button" class="start" id="start">You want to play</button>
+    </div>
+
+    <div class="container-1" id="question-container1">
+        <!-- Question will be displayed here -->
+        <h2>1</h2>
+        <p class="text">One Question: which is the largest planet in the system alone?</p>
+        <form class="One" id="form1">
+            <label for="L-question">
+                <input type="radio" name="answer" value="Mars" id="L-question">
+                a) Mars<br>
+            </label>
+            <label for="L-question2">
+                <input type="radio" name="answer" value="Jupiter" id="L-question2">
+                b) Jupiter<br>
+            </label>
+            <label for="L-question3">
+                <input type="radio" name="answer" value="Saturn" id="L-question3">
+                c) Saturn<br>
+            </label>
+            <label for="L-question4">
+                <input type="radio" name="answer" value="Venus" id="L-question4">
+                d) Venus<br>
+            </label>
+            <button type="button" id="start-1">Next</button>
+        </form>
+
+        <p id="feedback1"></p>
+
+    </div>
+
+    <div class="container-2" id="question-container-2">
+        <!-- Question will be displayed here -->
+        <h2>2</h2>
+        <p class="text">Two Question: In which year did World War II begin?</p>
+        <form class="Two" id="form2">
+            <label for="L-question5">
+                <input type="radio" name="answer" value="1914" id="L-question5">
+                a) 1914<br>
+            </label>
+            <label for="L-question6">
+                <input type="radio" name="answer" value="1939" id="L-question6">
+                b) 1939<br>
+            </label>
+            <label for="L-question7">
+                <input type="radio" name="answer" value="1945" id="L-question7">
+                c) 1945<br>
+            </label>
+            <label for="L-question8">
+                <input type="radio" name="answer" value="1950" id="L-question8">
+                d) 1950<br>
+            </label>
+            <button type="button" id="start-2">Next</button>
+        </form>
+
+        <p id="feedback2"></p>
+    </div>
+
+    <div class="container-3" id="question-container-3">
+        <!-- Question will be displayed here -->
+        <h2>3</h2>
+        <p class="text">Three Question: Who wrote "Don Quixote"?</p>
+        <form class="Three" id="form3">
+            <label for="L-question9">
+                <input type="radio" name="answer" value="Gabriel García Márquez" id="L-question9">
+                a) Gabriel García Márquez<br>
+            </label>
+            <label for="L-question10">
+                <input type="radio" name="answer" value="William Shakespeare" id="L-question10">
+                b) William Shakespeare<br>
+            </label>
+            <label for="L-question11">
+                <input type="radio" name="answer" value="Miguel de Cervantes" id="L-question11">
+                c) Miguel de Cervantes<br>
+            </label>
+            <label for="L-question12">
+                <input type="radio" name="answer" value="Jorge Luis Borges" id="L-question12">
+                d) Jorge Luis Borges<br>
+            </label>
+            <button type="button" id="start-3">Next</button>
+        </form>
+
+        <p id="feedback3"></p>
+    </div>
+
+    <div class="container-4" id="question-container-4">
+        <!-- Question will be displayed here -->
+        <h2>4</h2>
+        <p class="text">Four Question: Which chemical element is most abundant in the Earth's atmosphere?</p>
+        <form class="four" id="form4">
+            <label for="L-question13">
+                <input type="radio" name="answer" value="Oxygen" id="L-question13">
+                a) Oxygen<br>
+            </label>
+            <label for="L-question14">
+                <input type="radio" name="answer" value="Nitrogen" id="L-question14">
+                b) Nitrogen<br>
+            </label>
+            <label for="L-question15">
+                <input type="radio" name="answer" value="Hydrogen" id="L-question15">
+                c) Hydrogen<br>
+            </label>
+            <label for="L-question16">
+                <input type="radio" name="answer" value="Carbon" id="L-question16">
+                d) Carbon<br>
+            </label>
+            <button type="button" id="start-4">Next</button>
+        </form>
+
+        <p id="feedback4"></p>
+    </div>
+
+    <div class="container-5" id="question-container-5">
+        <!-- Question will be displayed here -->
+        <h2>5</h2>
+        <p class="text">Five Question: Which musical instrument has black and white keys?</p>
+        <form class="five" id="form5">
+            <label for="L-question17">
+                <input type="radio" name="answer" value="Violin" id="L-question17">
+                a) Violin<br>
+            </label>
+            <label for="L-question18">
+                <input type="radio" name="answer" value="Flute" id="L-question18">
+                b) Flute<br>
+            </label>
+            <label for="L-question19">
+                <input type="radio" name="answer" value="Piano" id="L-question19">
+                c) Piano<br>
+            </label>
+            <label for="L-question20">
+                <input type="radio" name="answer" value="Guitar" id="L-question20">
+                d) Guitar<br>
+            </label>
+            <button type="button" id="start-5">Next</button>
+        </form>
+
+        <p id="feedback5"></p>
+    </div>
+
+    <div id="resultContainer">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

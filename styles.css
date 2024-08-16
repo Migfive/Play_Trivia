@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=New+Amsterdam&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    /*Color of background*/
+    --color-Background: #2f294d;
+    /*Font size*/
+    --lg:32px;
+    --md:24px;
+    --sm:16px;
+    /*Color-Text*/
+    --color-Text1: #c2b6ff;
+    --color-Text2: #0b0b0b;
+    --color-Text3: #ffff
+}
+body{
+    font-family: "New Amsterdam", sans-serif;
+    margin : 0;
+    background-color: var(--color-Background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+
+.container{
+    color: var(--color-Text1);
+    text-align: center;
+    margin: 0 auto;
+}
+.container button{
+    font-family: "Poppins", sans-serif;
+    font-size: var(--sm);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-Text2);
+    color: white;
+    cursor: pointer;
+}
+#resultContainer{
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-family: "Karla", sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--color-Text3);
+}
+
+
+
+
+
